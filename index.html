@@ -12,7 +12,16 @@
     <form id="create-task-form" action="" method="POST">
       <label for="new_task">Task description:</label>
       <input type="text" id="new_task" name="new_task" placeholder="description">
+      <label for="priority">Priority: </label>
+      <select name="priority" id="priority">
+        <option value = 1>Urgent</option>
+        <option value = 2>Normal</option>
+        <option value = 3>Whenever</option>
+      </select>
+      <lable for = "duration">Duration: </lable>
+      <input type = "number" name = "duration" id = "duration" placeholder="minutes">
       <input type="submit" value="Create New Task">
+      <input type="reset" value="Reset">
     </form>
 
     <div id="list">
