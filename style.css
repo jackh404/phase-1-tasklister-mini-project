@@ -45,3 +45,14 @@ button {
 .whenever{
   background-color: cornsilk;
 }
+
+li{
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+}
+.delete{
+  display: inline-block;
+  height: 100%;
+  font-size: large;
+}
